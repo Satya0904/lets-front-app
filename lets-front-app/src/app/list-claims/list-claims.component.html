@@ -1,0 +1,22 @@
+<caption> My_Claims </caption>
+<table border="1">
+
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Description</th>
+            <th>Depratment</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor='let claim of claims'>
+            <td>{{claim.id}}</td>
+            <td>{{claim.description}}</td>
+            <td>{{claim.department}}</td>
+        </tr>
+
+    </tbody>
+
+</table>

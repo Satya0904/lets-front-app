@@ -8,13 +8,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.modules';
 import { ErrorComponent } from './error/error.component';
+import { ListClaimsComponent } from './list-claims/list-claims.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    ListClaimsComponent
   ],
   imports: [
     BrowserModule,
